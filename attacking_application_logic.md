@@ -104,23 +104,11 @@
   * App lets users obtain quotes for insurance, and, if desired submit an insurance application online
   * It used a dozen stages
   
->  → Applicant submits basic information, 
->    and either preferred monthly premium or amount 
->    of desired insurance payout
->
->  ↳ App computes values the applicant 
->      did not specify
->  
->  → Across several stages, applicant supplies
->    other personal details: health, occupation, 
->    pastimes, etc.
->  
->  → Finally application is sent to an underwriter 
->  
->  ↳ Underwriter uses the same web app to review 
->      the details and decide whether to approve the 
->      application, or modify the initial quote to reflect 
->      additional risks
+> → Applicant submits basic information, and either preferred monthly premium or amount of desired insurance payout
+> ↳ App computes values the applicant did not specify
+>  → Across several stages, applicant supplies other personal details: health, occupation, pastimes, etc.
+>  → Finally application is sent to an underwriter
+>  ↳ Underwriter uses the same web app to review the details and decide whether to approve the application, or modify the initial quote to reflect additional risks
 
   * Each stage uses a shared component to process each parameter of user data
   * Component parsed all data in each _POST_ request into name/value pairs and updated state information
@@ -331,10 +319,10 @@ SELECT * FROM users WHERE username = ´admin´´--´ and password = ´´;
 
   * App is new and buggy, so it puts out detailed error messages containing :
 
->  → The user's identity 
->  → The _token_ for the current session
->  → The URL being accessed
->  → All the parameters supplied with the request that generated the error
+> → The user's identity 
+> → The _token_ for the current session
+> → The URL being accessed
+> → All the parameters supplied with the request that generated the error
 
 #### Assumption
 
@@ -360,9 +348,9 @@ SELECT * FROM users WHERE username = ´admin´´--´ and password = ´´;
   * Attacker polls error container URL repeatedly
   * Log results each time they change and get:
 
->  → A set of usernames that could be used in a password-guessing attack
->  → A set of session tokens that could be used to hijack sessions
->  → A set of user-supplied input, which may contain passwords and other sensitive items
+> → A set of usernames that could be used in a password-guessing attack
+> → A set of session tokens that could be used to hijack sessions
+> → A set of user-supplied input, which may contain passwords and other sensitive items
 
 
 ### XII. Racing Against the Login
