@@ -105,11 +105,13 @@
   * It used a dozen stages
   
 > → Applicant submits basic information, and either preferred monthly premium or amount of desired insurance payout
+>
 > ↳ App computes values the applicant did not specify
 >
 > → Across several stages, applicant supplies other personal details: health, occupation, pastimes, etc.
 >
 > → Finally application is sent to an underwriter
+>
 > ↳ Underwriter uses the same web app to review the details and decide whether to approve the application, or modify the initial quote to reflect additional risks
 
   * Each stage uses a shared component to process each parameter of user data
@@ -202,7 +204,9 @@
 #### Numeric Limits
 
 > → A retailing application may prevent a user from ordering more than the number of units available in stock
+>
 > → A banking application may prevent a user from making bill payments that exceeds their current account balance
+>
 > → An insurance application may adjust its quotes based on age threshold
 
   * __Try negative values at each step__
@@ -322,8 +326,11 @@ SELECT * FROM users WHERE username = ´admin´´--´ and password = ´´;
   * App is new and buggy, so it puts out detailed error messages containing :
 
 > → The user's identity 
+>
 > → The _token_ for the current session
+>
 > → The URL being accessed
+>
 > → All the parameters supplied with the request that generated the error
 
 #### Assumption
@@ -351,7 +358,9 @@ SELECT * FROM users WHERE username = ´admin´´--´ and password = ´´;
   * Log results each time they change and get:
 
 > → A set of usernames that could be used in a password-guessing attack
+>
 > → A set of session tokens that could be used to hijack sessions
+>
 > → A set of user-supplied input, which may contain passwords and other sensitive items
 
 
