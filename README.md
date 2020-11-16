@@ -4,4 +4,4 @@
 
 ### Matériel & Sources
 
-  * [Chapitre 11](./"Attacking application logic.pdf") du livre _Web Application Hackers Handbook - 2nd edition_
+  * [Chapitre 11](./ch11_attacking_application_logic.pdf) du livre _Web Application Hackers Handbook - 2nd edition_ 
