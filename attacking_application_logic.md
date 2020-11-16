@@ -106,9 +106,11 @@
   
 > → Applicant submits basic information, and either preferred monthly premium or amount of desired insurance payout
 > ↳ App computes values the applicant did not specify
->  → Across several stages, applicant supplies other personal details: health, occupation, pastimes, etc.
->  → Finally application is sent to an underwriter
->  ↳ Underwriter uses the same web app to review the details and decide whether to approve the application, or modify the initial quote to reflect additional risks
+>
+> → Across several stages, applicant supplies other personal details: health, occupation, pastimes, etc.
+>
+> → Finally application is sent to an underwriter
+> ↳ Underwriter uses the same web app to review the details and decide whether to approve the application, or modify the initial quote to reflect additional risks
 
   * Each stage uses a shared component to process each parameter of user data
   * Component parsed all data in each _POST_ request into name/value pairs and updated state information
