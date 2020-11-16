@@ -317,8 +317,11 @@ SELECT * FROM users WHERE username = ´admin´´--´ and password = ´´;
   * Authors have used this technique to brute-force a password from a configuration file stored in a wiki
   * With the searches:
     > Password=A
+    >
     > Password=B
+    >
     > Password=BA
+    >
     > ...
 
 ### XI. Snarfing Debug Messages
