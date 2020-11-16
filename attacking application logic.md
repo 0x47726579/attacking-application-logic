@@ -2,7 +2,7 @@
 
   * Transcript from https://www.youtube.com/watch?v=UgPismmHayA
   * This also resumes Chapter 11 of _Web Application Hackers Handbook - 2nd edition_
-  * Chapter 11 can be found [here](Attacking application logic.pdf)
+  * Chapter 11 can be found [here](./"Attacking application logic.pdf")
 
 ## Logic Flaws
 
