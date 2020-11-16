@@ -4,15 +4,15 @@
   * This also resumes Chapter 11 of _Web Application Hackers Handbook - 2nd edition_
   * Chapter 11 can be found [here](Attacking application logic.pdf)
 
-## Real life examples
-### I. Logic Flaws
+## Logic Flaws
 
   * No common signature, such as found on SQLi
   * Often an assumption a developer made
   * Difficult to find and eliminate
 
 
-### II. Asking the Oracle
+## Real life examples
+### I. Asking the Oracle
   
   * "Remember me" function sets a permanent cookie
   * Containing an encrypted string that contains
@@ -45,7 +45,7 @@
   * Substitute other encrypted values
   * Try to cause an error that reveals the decrypted value
 
-### III. Fooling a Password change Function
+### II. Fooling a Password change Function
 
   * Form for password change asks
       * Username
@@ -73,7 +73,7 @@
   * Delete the name as well as the value
   * Try it at each step of the process
 
-### IV. Proceeding to Checkout
+### III. Proceeding to Checkout
 
 > 1. Browse the product catalog, and add items to the shopping basket.
 > 2. Return to the shopping basket, and finalize the order.
@@ -99,7 +99,7 @@
   * Guess assumptions and violate them
   * Watch for interesting error messages
 
-### V. Rolling your Own Insurance
+### IV. Rolling your Own Insurance
 
   * App lets users obtain quotes for insurance, and, if desired submit an insurance application online
   * It used a dozen stages
@@ -148,7 +148,7 @@
   * Take parameters from one stage, and add them to requests from another stage → see if they are tested for consistency 
   * Take parameters used by one type of user and try submitting them as another type of user
 
-### VI.i. Breaking the Bank
+### V. Breaking the Bank
 
   * App lets existing bank customers register for online banking
   * Collects name, address, and date of birth
@@ -190,7 +190,7 @@
   * Registration function allows writing without authentication
       * These users are unknown
 
-### VI.ii. Beating a Business Limit
+### VI. Beating a Business Limit
 
   * Financial personnel can transfer funds between company bank accounts and customers and suppliers
   * Application prevents users from performing transfers over $10k
@@ -396,3 +396,12 @@ SELECT * FROM users WHERE username = ´admin´´--´ and password = ´´;
   * During security review, reflect on every assumption made in the design
       * Imagine circumstances that violate those assumptions
       * Focus on conditions that user can control
+
+
+## Summary
+
+TODO
+
+## Questions
+
+https://portswigger.net/web-security/logic-flaws#what-are-business-logic-vulnerabilities
