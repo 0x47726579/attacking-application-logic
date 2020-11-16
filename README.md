@@ -9,6 +9,11 @@
   * [Web Security Academy 🔗](https://portswigger.net/web-security/logic-flaws) sur les failles de logique
   * [Feuille de résumé 🔗](./resume.md)
 
+#### Ressources en tout genre
+  * **[Xtreme Vulnerable Web Application (XVWA) -- GOOD FOR PROJECTS 🔗](https://github.com/s4n7h0/xvwa)** 
+  * **[SQL Injection Videos - YouTube](https://www.youtube.com/playlist?list=PLZOToVAK85Mr4CzRimmw4KD84yUjkEAEw)**
+  * **[DVWA - Damn Vulnerable Web Application](http://www.dvwa.co.uk/)**
+
 ### Répartition des tâches
 
 #### Commun  ⚠ ⚠ ⚠ ⚠ ⚠
