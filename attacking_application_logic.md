@@ -59,7 +59,7 @@
 
   * When a request comes in without an existing password, that indicates that it came from an administrator 
 
-![asking_the_oracle_change_password_logic_01.png](.\img\asking_the_oracle_change_password_logic_01.png)
+![asking_the_oracle_change_password_logic_01.png](./img/asking_the_oracle_change_password_logic_01.png)
 
 #### The Attack
 
