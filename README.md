@@ -11,8 +11,9 @@
 
 #### Ressources en tout genre
   * **[Xtreme Vulnerable Web Application (XVWA) -- GOOD FOR PROJECTS 🔗](https://github.com/s4n7h0/xvwa)** 
-  * **[SQL Injection Videos - YouTube](https://www.youtube.com/playlist?list=PLZOToVAK85Mr4CzRimmw4KD84yUjkEAEw)**
-  * **[DVWA - Damn Vulnerable Web Application](http://www.dvwa.co.uk/)**
+  * **[SQL Injection Videos - YouTube 🔗](https://www.youtube.com/playlist?list=PLZOToVAK85Mr4CzRimmw4KD84yUjkEAEw)**
+  * **[DVWA - Damn Vulnerable Web Application 🔗](http://www.dvwa.co.uk/)**
+  * [Business Logic Testing | Owasp Testing Guide v4 🔗](https://kennel209.gitbooks.io/owasp-testing-guide-v4/content/en/web_application_security_testing/business_logic_testing.html)
 
 ### Répartition des tâches
 
