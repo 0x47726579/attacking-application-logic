@@ -15,7 +15,7 @@
   * **[DVWA - Damn Vulnerable Web Application 🔗](http://www.dvwa.co.uk/)**
   * **[Business Logic Testing | Owasp Testing Guide v4 🔗](https://kennel209.gitbooks.io/owasp-testing-guide-v4/content/en/web_application_security_testing/business_logic_testing.html)**
 
-### Répartition des tâches
+## Répartition des tâches
 
 #### Commun  ⚠ ⚠ ⚠ ⚠ ⚠
 
@@ -43,3 +43,10 @@
 - [ ] Lecture du chapitre 11
 - [ ] Slides partie N
 - [ ] Démos partie N
+
+
+## Slides (Content)
+
+### Introduction
+
+#### The Nature of logic flaw
