@@ -433,7 +433,11 @@ https://portswigger.net/web-security/logic-flaws#what-are-business-logic-vulnera
       * Brute Force techniques to search for unlinked contents
       * attack is performed manually when the application index directories and pages are based on number generation or predictable values,
       * or using automated tools for common files and directory names.
-  * attack is also known as Predictable Resource Location, File Enumeration, Directory Enumeration, and Resource Enumeration.
+  * Attack is also known as:
+      * Predictable Resource Location
+      * File Enumeration
+      * Directory Enumeration 
+      * Resource Enumeration
 
 #### An application applies various global ﬁlters on user input, designed to prevent different categories of attack. To defend against SQL injection, it doubles up any single quotation marks that appear in user input. To prevent buffer overﬂow attacks against some native code components, it truncates any overlong items to a reasonable limit. What might go wrong with these ﬁlters?
 
