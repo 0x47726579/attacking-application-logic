@@ -34,7 +34,7 @@
 
 #### Michael
 
-- [ ] Lecture du chapitre 11
+- [x] Lecture du chapitre 11
 - [ ] Slides partie M
 - [ ] Démos partie M
 
@@ -47,6 +47,4 @@
 
 ## Slides (Content)
 
-### Introduction
-
-#### The Nature of logic flaw
+#### https://docs.google.com/presentation/d/1laAw_v_10AiSFOmAtb18C8bYehlhRmCs9mNOTxBtohk/edit#slide=id.gacdb08dc1a_0_150
