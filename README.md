@@ -4,10 +4,10 @@
 
 ### Matériel & Ressources
 
-  * **[Chapitre 11 🔗](./ch11_attacking_application_logic.pdf)** du livre _Web Application Hackers Handbook - 2nd edition_ 
-  * **[Résumé 🔗](./attacking_application_logic.md)** du chapitre 11
+  * **[Chapitre 11 🔗](used_files\ch11_attacking_application_logic.pdf)** du livre _Web Application Hackers Handbook - 2nd edition_ 
+  * **[Résumé 🔗](used_files\attacking_application_logic.md)** du chapitre 11
   * **[Web Security Academy 🔗](https://portswigger.net/web-security/logic-flaws)** sur les failles de logique
-  * **[Feuille de résumé 🔗](./resume.md)**
+  * **[Feuille de résumé 🔗](used_files\resume.md)**
 
 #### Ressources en tout genre
   * **[Xtreme Vulnerable Web Application (XVWA) -- GOOD FOR PROJECTS 🔗](https://github.com/s4n7h0/xvwa)** 
@@ -20,29 +20,29 @@
 #### Commun  ⚠ ⚠ ⚠ ⚠ ⚠
 
 
-- [ ] Résumé du chapitre 11 (~90%)
-- [ ] Plan de présentation
-- [ ]  ⚠ ⚠ ⚠ ⚠ ⚠ Feuille de résumé ⚠ ⚠ ⚠ ⚠ ⚠
+- [x] Résumé du chapitre 11
+- [x] Plan de présentation
+- [x]  ⚠ ⚠ ⚠ ⚠ ⚠ Feuille de résumé ⚠ ⚠ ⚠ ⚠ ⚠
 
 
 #### Laurent
 
 - [x] Lecture du chapitre 11
-- [ ] Slides partie L
-- [ ] Démos partie L
+- [x] Slides partie L
+- [x] Démos partie L
 
 
 #### Michael
 
 - [x] Lecture du chapitre 11
-- [ ] Slides partie M
-- [ ] Démos partie M
+- [x] Slides partie M
+- [x] Démos partie M
 
 #### Nenad
 
-- [ ] Lecture du chapitre 11
-- [ ] Slides partie N
-- [ ] Démos partie N
+- [x] Lecture du chapitre 11
+- [x] Slides partie N
+- [x] Démos partie N
 
 
 ## Slides (Content)
