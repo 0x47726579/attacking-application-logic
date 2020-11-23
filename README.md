@@ -4,10 +4,10 @@
 
 ### Matériel & Ressources
 
-  * **[Chapitre 11 🔗](used_files\ch11_attacking_application_logic.pdf)** du livre _Web Application Hackers Handbook - 2nd edition_ 
-  * **[Résumé 🔗](used_files\attacking_application_logic.md)** du chapitre 11
+  * **[Chapitre 11 🔗](./used_files/ch11_attacking_application_logic.pdf)** du livre _Web Application Hackers Handbook - 2nd edition_ 
+  * **[Résumé 🔗](./used_files/attacking_application_logic.md)** du chapitre 11
   * **[Web Security Academy 🔗](https://portswigger.net/web-security/logic-flaws)** sur les failles de logique
-  * **[Feuille de résumé 🔗](used_files\resume.md)**
+  * **[Feuille de résumé 🔗](./used_files/resume.md)**
 
 #### Ressources en tout genre
   * **[Xtreme Vulnerable Web Application (XVWA) -- GOOD FOR PROJECTS 🔗](https://github.com/s4n7h0/xvwa)** 
